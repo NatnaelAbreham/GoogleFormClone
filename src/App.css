@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(231, 227, 235);
+  margin: 0;
+  padding: 0;
+}
+
+.question-card {
+  transition: all 0.18s ease-in-out;
+}
+
+.image-block img {
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+/* Remove any max-width constraints and ensure full centering */
+#root {
+  width: 100%;
+}
